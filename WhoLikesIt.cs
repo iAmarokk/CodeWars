@@ -40,18 +40,4 @@ namespace CodeWars
 			Assert.AreEqual("Alex, Jacob and 2 others like this", WhoLikesIt.Likes(new string[] { "Alex", "Jacob", "Mark", "Max" }));
 		}
 	}
-
-
-
-	//for(int i = 0; i < name.Length; i++)
-	//{
-	//	if(i == 0)
-	//	{
-	//		s += name[i];
-	//	}
-	//	if(i == 1)
-	//	{
-	//		s += name[i]
-	//	}
-	//}
 }
