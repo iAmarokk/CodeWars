@@ -9,7 +9,7 @@ namespace CodeWars
 		public static bool IsPangram(string str)
 		{
 			str = str.ToLower();
-			var str2 = str.Distinct();
+			System.Collections.Generic.IEnumerable<char> str2 = str.Distinct();
 			//формула
 			int sum = (97 + 122) * (122 - 97 + 1) / 2;
 
